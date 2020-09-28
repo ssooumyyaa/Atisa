@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544106660186",
+    "firebase_url": "https://atisa-ec651.firebaseio.com",
+    "project_id": "atisa-ec651",
+    "storage_bucket": "atisa-ec651.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544106660186:android:142b8c505b2d575fc97363",
+        "android_client_info": {
+          "package_name": "com.example.atisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544106660186-uk3tcd0jni509moeum0037qpcb3bv32e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atisa",
+            "certificate_hash": "58089061bfc1f1b02c1b161688f34db16f7d88a3"
+          }
+        },
+        {
+          "client_id": "544106660186-h48kmjtlq5haaita2a0t175p7okrpp98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMumAui8vt4JOumjYvAmayIIafn-EZ2S4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544106660186-h48kmjtlq5haaita2a0t175p7okrpp98.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

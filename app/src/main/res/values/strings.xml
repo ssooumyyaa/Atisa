@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Atisa</string>
+
+
+    <array name="topics">
+        <item>notifications</item>
+        <item>promotional_messages</item>
+    </array>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pass">Pass</string>
+    <string name="title_activity_feed">Feed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about">about</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.atisa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".feedback"></activity>
+        <activity android:name=".artGallery.galleryDetail" />
+        <activity android:name=".artGallery.galleryAct" />
+        <activity android:name=".ambassdor.AmbassAct" />
+        <activity android:name=".event_listFrag.evenDetail" />
+        <activity android:name=".aboutus" />
+        <activity
+            android:name=".about"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".coordinator.coordinator" />
+        <activity android:name=".notif.notification" />
+        <activity android:name=".Event_list" />
+        <activity
+            android:name=".Feed"
+            android:label="@string/title_activity_feed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Pass" />
+        <activity android:name=".RegisterAct" />
+        <activity android:name=".login" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".notif.Service">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
